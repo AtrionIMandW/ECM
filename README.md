@@ -6,4 +6,3 @@ $filename = "master.zip"
 $zip_file = $shell_app.namespace((Get-Location).Path + "\$filename")
 $destination = $shell_app.namespace((Get-Location).Path)
 $destination.Copyhere($zip_file.items())
-I"M BREAKING THIS!!~!!!!!
